@@ -19,8 +19,8 @@ fun main() {
     // Assignment
     val mouse0: Mouse = Mouse("Jerry")
     mouse0.makeASound()
-    mouse0.StealCheese(10)
-    mouse0.EatCheese()
+    mouse0.stealCheese(10)
+    mouse0.eatCheese()
 }
 
 fun moveAndMakeASound(animal: Animal) {

@@ -9,11 +9,11 @@ class Mouse(_name: String = "The mouse"): Animal(_name) {
         println("$animalName said squeak!")
     }
 
-    fun StealCheese(x: Int) {
+    fun stealCheese(x: Int) {
         CheeseAmount += x
     }
 
-    fun EatCheese() {
+    fun eatCheese() {
         CheeseAmount--
     }
 }

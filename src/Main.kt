@@ -17,10 +17,10 @@ fun main() {
     moveAndMakeASound(cat0)
 
     // Assignment
-    val mouse0: Mouse = Mouse("Jerry")
-    mouse0.makeASound()
-    mouse0.stealCheese(10)
-    mouse0.eatCheese()
+    val jerry: Mouse = Mouse("Jerry")
+    jerry.makeASound()
+    jerry.stealCheese(10)
+    jerry.eatCheese()
 }
 
 fun moveAndMakeASound(animal: Animal) {

@@ -20,7 +20,9 @@ fun main() {
     val jerry: Mouse = Mouse("Jerry")
     jerry.makeASound()
     jerry.stealCheese(10)
+    jerry.checkCheese()
     jerry.eatCheese()
+    jerry.checkCheese()
 }
 
 fun moveAndMakeASound(animal: Animal) {

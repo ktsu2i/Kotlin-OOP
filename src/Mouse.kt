@@ -18,4 +18,8 @@ class Mouse(_name: String = "The mouse"): Animal(_name) {
             cheeseAmount--
         }
     }
+
+    fun checkCheese() {
+        println("$animalName has $cheeseAmount")
+    }
 }

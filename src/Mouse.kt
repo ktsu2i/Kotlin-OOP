@@ -1,5 +1,5 @@
 class Mouse(_name: String = "The mouse"): Animal(_name) {
-    private var CheeseAmount: Int = 0
+    private var cheeseAmount: Int = 0
 
     override fun makeASound() {
         squeak()
@@ -10,10 +10,10 @@ class Mouse(_name: String = "The mouse"): Animal(_name) {
     }
 
     fun stealCheese(x: Int) {
-        CheeseAmount += x
+        cheeseAmount += x
     }
 
     fun eatCheese() {
-        CheeseAmount--
+        cheeseAmount--
     }
 }

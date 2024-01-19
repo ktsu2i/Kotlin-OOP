@@ -14,7 +14,7 @@ class Mouse(_name: String = "The mouse"): Animal(_name) {
     }
 
     fun eatCheese() {
-        if (cheeseAmount >= 0) {
+        if (cheeseAmount > 0) {
             cheeseAmount--
         }
     }
